@@ -6,11 +6,8 @@ export default function App() {
     <div className="App">
       Weather App
       <footer>
-        This project was coded by j'ordaine guiseppi-ramos and is
-        <a
-          href="https://github.com/JordaineGR/react-weather-app"
-          target="_blank"
-        >
+        This project was coded by j'ordaine guiseppi-ramos and is {""}
+        <a href="https://github.com/JordaineGR/react-weather-app">
           open-sourced on GitHub
         </a>
       </footer>
