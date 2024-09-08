@@ -24,9 +24,11 @@
   list-style: none;
 }
 .weather .temperature {
-  font-weight: 600;
+  font-weight: 300;
   font-size: 64px;
   line-height: 64px;
+  margin-top: -40px;
+  position: relative;
 }
 .weather canvas {
   display: inline-block;
