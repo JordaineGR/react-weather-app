@@ -7,29 +7,30 @@ export default function WeatherInfo(props) {
   return (
     <div className="WeatherInfo">
       <h1>{props.data.city}</h1>
-      <ul>
-        <li>
-          <FormattedDate date={props.data.date} />
-        </li>
-        <li className="text-capitalize">{props.data.description}</li>
-      </ul>
-      <div className="row mt-3">
-        <div className="col-6">
+
+      <div className="row mt-3 mb-5">
+        <div className="col-7 mt-3">
+          <ul>
+            <li>
+              <FormattedDate date={props.data.date} />
+            </li>
+          </ul>
+          <ul>
+            <li>
+              {props.data.description}, humidity: {props.data.humidity}, wind:{" "}
+              {props.data.wind}
+            </li>
+          </ul>
+        </div>
+        <div className="col-5">
           <div className="clearfix">
             <div className="float-left">
-              <WeatherIcon code={props.data.icon} size={52} />
+              <WeatherIcon code={props.data.icon} size={70} />
             </div>
             <div className="float-right">
               <WeatherTemperature celsius={props.data.temperature} />
             </div>
           </div>
-        </div>
-        <div className="col-6">
-          <ul>
-            <li>Precipitaion: 15%</li>
-            <li>Humidity: {props.data.humidity}</li>
-            <li>Wind: {props.data.wind} </li>
-          </ul>
         </div>
       </div>
     </div>
