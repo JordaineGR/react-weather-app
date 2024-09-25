@@ -7,7 +7,7 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <Weather defaultCity="New York" />
+        <Weather defaultCity="Port of Spain" />
         <footer>
           This project was coded by{" "}
           <a
@@ -15,16 +15,16 @@ export default function App() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            J'ordaine Guiseppi-Ramos{" "}
+            Jordaine{" "}
           </a>{" "}
-          and is {""}
+          and is open-sourced on {""}
           <a
             href="https://github.com/JordaineGR/react-weather-app"
             target="_blank"
             rel="noopener noreferrer"
           >
             {" "}
-            open-sourced on GitHub{" "}
+            GitHub{" "}
           </a>{" "}
           and hosted on{" "}
           <a

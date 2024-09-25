@@ -5,3 +5,12 @@
   opacity: 0.6;
   margin-left: 5px;
 }
+
+.WeatherForecast-day {
+  opacity: 0.7;
+}
+.forecastBlock {
+  background-color: rgba(163, 147, 235, 0.1);
+  border-radius: 10px;
+  padding: 10px;
+}
