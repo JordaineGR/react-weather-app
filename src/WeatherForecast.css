@@ -1,16 +1,22 @@
 .WeatherForecast {
   text-align: center;
 }
+
+.WeatherForecast-max {
+  color: white;
+}
 .WeatherForecast-min {
+  color: white;
   opacity: 0.6;
   margin-left: 5px;
 }
 
 .WeatherForecast-day {
-  opacity: 0.7;
+  color: white;
 }
+
 .forecastBlock {
-  background-color: rgba(163, 147, 235, 0.1);
+  background-color: rgba(1, 53, 44, 0.3);
   border-radius: 10px;
   padding: 10px;
 }
